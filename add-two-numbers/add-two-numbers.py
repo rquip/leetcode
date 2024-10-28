@@ -4,6 +4,9 @@
 #         self.val = val
 #         self.next = next
 
+# Solution 1
+# Time complexity: O(n+m+l) where n is the length of l1, m is the length of l2 and l is the length of the final sum - linear with input
+
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         # Take l1 and go through it and save it as a number
